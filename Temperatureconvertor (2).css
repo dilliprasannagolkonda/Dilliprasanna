@@ -1,0 +1,99 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.temp_block
+{
+    width:500px;
+    height:400px;
+    background-color:rgb(245, 236, 211);
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    border-radius: 5px;
+    box-shadow: 100px;
+}
+#tempconv
+{
+   
+    width: 400px;
+    height: 50px;
+    background-color:darkgrey;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    left: 450px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.la_bel
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.la_bel input
+{
+    font-size: 1rem;
+    width: 300px;
+    height: 40px;
+
+}
+.convertors
+{
+    margin-left: 50px;
+    display: flex;
+}
+.covertor1
+{
+    border:1px solid grey;
+    padding: 5px;
+    margin: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.covertor1 select option
+{
+    font-size: 0.9rem;
+}
+
+.covertor2
+{
+    border:1px solid grey;
+    padding: 5px;
+    margin: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.buttons button
+{
+    margin-left: 100px;
+    background-color:rgb(16, 95, 25);
+    padding: 10px;
+    border-radius: 5px;
+    width:100px;
+    height: 50px;
+    font-size: 0.9rem;
+    color: white;
+}
+.buttons button:hover
+{
+    background-color: rgb(24, 153, 24);
+}
+.result_box
+{
+    margin-left: 50px;
+}
+.result_box label
+{
+    font-size: 0.9rem;
+}
+.result_box input
+{
+    font-size: 1.2rem;
+    width: 300px;
+    height: 40px;
+
+}
